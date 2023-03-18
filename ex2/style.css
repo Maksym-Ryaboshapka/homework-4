@@ -1,7 +1,7 @@
-a {
+a[href^="https"] {
     color: red;
 }
 
-.paragraf {
+ul + p {
     font-size: 24px;
 }

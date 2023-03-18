@@ -1,13 +1,21 @@
-#pinkcol {
+h3 {
     color: pink;
+}
+
+div+h3 {
+    color: black;
 }
 
 #greycol {
     color: grey;
 }
 
-.red {
+div+div>p {
     color: red;
+}
+
+div+h3+p {
+    color: green;
 }
 
 .yellow {
