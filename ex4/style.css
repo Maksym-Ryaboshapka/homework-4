@@ -1,0 +1,63 @@
+.first-link:link {
+    color: green;
+}
+
+.first-link:visited {
+    color: blue;
+}
+
+.hover-p:hover {
+    color: yellow;
+}
+
+.focus-a:focus {
+    font-style: italic;
+}
+
+.first-input-form:disabled {
+    color: yellow;
+}
+
+.first-form:not([type="submit"]) {
+    color: aqua;
+}
+
+.first-checkbox:checked+.first-span {
+    color: lime;
+}
+
+.first-h2:nth-child(odd) {
+    color: aqua;
+}
+
+.second-h2:nth-child(even) {
+    font-size: 20px;
+}
+
+.third-h2:nth-child(3n) {
+    color: blueviolet;
+}
+
+.fourth-h2:nth-child(n+3) {
+    color: blue;
+}
+
+.fiveth-h2:nth-child(-n+2) {
+    color: lime;
+}
+
+.sixth-h2:nth-child(5) {
+    color: red;
+}
+
+.seventh-h2:first-child {
+    color: purple;
+}
+
+.eaghth-h2:last-child {
+    color: orange;
+}
+
+.nineth-h2:only-child {
+    color: red;
+}
